@@ -1,0 +1,28 @@
+{
+  "pages":[
+      "pages/addCgi/addCgi",
+    "pages/webSocket",
+    "pages/index/index",
+    "pages/auth/auth"
+  
+  ],
+  "window":{
+    "backgroundColor":"red",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "red",
+    "navigationBarTitleText": "不二惊玺",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/addCgi/addCgi",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      }
+    ]
+  }
+}

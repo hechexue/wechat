@@ -1,0 +1,19 @@
+<!--pages/webSocket.wxml-->
+<view>
+  <view class="content">
+    <view class="msg-item" wx:for= "{{data}}" wx:for-index="idx" wx:for-item="itemName">
+      <view wx:if="{{itemName.nickname !== connection.nickname}}">
+      <view class="msg-title"  > {{itemName.nickname}}--{{itemName.dateTime}}</view>
+      <view class="msg-text">{{itemName.message}}</view>
+      </view>
+      <view wx:else class='msg-right'>
+        <view class="msg-title"  > {{itemName.nickname}}--{{itemName.dateTime}}</view>
+        <view class="msg-text">{{itemName.message}}</view>
+      </view>
+      </view>
+  </view>
+<view class="section">
+  <input placeholder="这是一个可以自动聚焦的input" auto-focus bindinput="bindKeyInput"/>
+  <button bindtap="sendSocketMessage">发送</button>
+</view>
+</view>

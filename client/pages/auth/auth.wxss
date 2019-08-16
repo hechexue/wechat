@@ -1,0 +1,22 @@
+/* pages/auth/auth.wxss */
+.page-auth{
+  background: url('https://mmbiz.qpic.cn/mmbiz_jpg/vGRQQm4ia4YibBDftlrOGlUGf4Hbh00zibibSHRoDDuSR5mfJ5GQD84jic98gmicK4YrYbDbY2SduSXBGoOLC7vPycFg/0?wx_fmt=jpeg') left/cover no-repeat;
+  width:100vw;
+  height:100vh;
+}
+.auth{
+  text-align: center;
+  line-height: 400rpx;
+  color:#fff;
+}
+button{
+  width: 58%;
+  /* background: rgba(255, 255, 255, 0.1); */
+  border-width:0;
+  margin-top: 28%;
+  margin-left: 30%;
+  transform: rotate(-14deg);
+  color:red;
+  height:150rpx;
+  line-height: 150rpx;
+}

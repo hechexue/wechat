@@ -1,0 +1,60 @@
+/* pages/webSocket.wxss */
+.username{
+  background: red;
+  color:#fff;
+  text-align: center;
+  line-height: 80rpx;
+  border: 2rpx solid #fff;
+  position: absolute;
+  top:0;
+  width:100%;
+}
+.section{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  border:1px solid red;
+  box-sizing: border-box;
+  font-size: 26rpx;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height:90rpx;
+}
+
+.section input{
+    padding:20rpx;
+    width:70%;
+    vertical-align: bottom;
+}
+.section button{
+  background: red;
+  padding:20rpx 30rpx;
+  border-radius:0;
+  height:1.4rem;
+  display: inline-block;
+  color: #fff;
+  line-height: 1.4rem;
+  box-sizing: content-box;
+  vertical-align: bottom;
+  margin: 0;
+}
+.msg-item{
+  padding: 10rpx 20rpx;
+}
+.msg-title{
+  font-size: 32rpx;
+  color:#666;
+}
+.msg-text{
+  font-size: 36rpx;
+  padding: 10rpx 20rpx;
+  background:#ddd;
+  border-radius: 10rpx;
+  margin: 10rpx;
+  display: inline-block;
+  color:red;
+}
+.msg-right{
+  text-align: right
+}

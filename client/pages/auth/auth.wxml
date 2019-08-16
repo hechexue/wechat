@@ -1,0 +1,8 @@
+<!--pages/auth/auth.wxml-->
+<view class="page-auth">
+<view class="auth">
+  小程序将获取用户信息
+</view>
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+获取用户信息</button>
+</view>
